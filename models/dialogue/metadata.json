@@ -1,0 +1,44 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_ask_name": {
+      "slots": []
+    },
+    "utter_greet_with_name": {
+      "slots": []
+    },
+    "utter_func_list": {
+      "slots": []
+    },
+    "utter_bye": {
+      "slots": []
+    },
+    "utter_chatchit": {
+      "slots": []
+    },
+    "utter_meet_human": {
+      "slots": []
+    },
+    "action_get_weather": {
+      "slots": []
+    }
+  },
+  "python": "3.6.8",
+  "max_histories": [
+    1,
+    5,
+    null
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy"
+  ],
+  "trained_at": "20190902-150159",
+  "rasa_core": "0.14.4",
+  "tensorflow": "1.13.2",
+  "sklearn": "0.20.4"
+}
